@@ -1,0 +1,11 @@
+@import "size/min.css" screen and (max-width: 1150px);
+@import "size/max.css" screen and (min-width: 1150px);
+@font-face {
+    font-family: "font1";
+    src: url('les_fonts/static/PlayfairDisplay-SemiBold.ttf');
+}
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: century gothic;
+}

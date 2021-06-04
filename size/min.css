@@ -1,0 +1,208 @@
+#medium{
+    display: none;
+}
+#nav_medu{
+    display: none;
+}
+#smoll{
+    display: block;
+}
+#nav_sol {
+    display: block;
+
+}
+
+header h1 .M {
+        color: #F0AE00;
+        font-family: 'Playfair Display', serif;
+        font-size: 5.5vh;
+        border-style: solid none dashed solid;
+    }
+    header h1 .irleft {
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 5.5vh;
+        border-style: dashed solid solid none;
+    }
+    header ul {
+        list-style-type: none;
+        text-align: center;
+        display: none;
+        align-items: center;
+        width: 100%;
+    }
+    
+    button{
+        display: block;
+        position: absolute;
+        right: 0%;
+        background-color: #1D0E09;
+        border-color: #F0AE00;
+        width:6vh;
+        height:6vh;
+        margin-right: 1vh;
+        margin-top: 0.5vh;
+        border-radius: 1vh;
+    }
+    header ul li {
+        display: block;
+        padding-top: 1vh;
+        width: 100%;
+        text-align: center;
+    }
+    
+    header ul li a {
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff transparent;
+        font-size: 3vh;
+        display: block;
+        width: 100%;
+        transition: 1s ease;
+    }
+    
+    header ul li a:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #F0AE00;
+        font-size: 1.3em;
+        border-radius: 1vh;
+        transition: 1.5s ease;
+        border: solid;
+        border-color: #F0AE00;
+    }
+    
+    /* header ul li.active a {
+        background-color: rgba(255, 255, 255, 0.5);
+        color: #F0AE00;
+        font-size: 1.3em;
+        border-radius: 1vh;
+        transition: 1.5s ease;
+    } */
+    #nav_sol{
+        position: fixed;
+        width: 100%;
+        background: linear-gradient(to right,#0B0505,#1D0E09, #1E110B,#100708,#060405);
+        z-index: 999;
+        display: block;
+
+    }
+
+    header h1 {
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        padding: 1% 0 1% 1%;
+        font-size: 0vh;
+    }
+    header {
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url('../image/original.jpg');
+        background-position: center;
+        height: 100vh;
+        background-size: cover;
+    }
+    .imgg {
+        width: 66vh;
+    }
+    main{
+        background-color: #110B09;
+    
+    }
+    #bac{
+        background-color: #110B09;
+    }
+    #bac p{
+        color: white;
+    }
+    #bien {
+        position: relative;
+        top: 46%;
+        text-align: center;
+        color: white;
+        font-size: 8vh;
+        font-weight: bold;
+        font-weight:unset;
+    }
+    .def {
+        text-align: center;
+        width: 80%;
+        margin:2% 0% 4% 11%;
+    }
+    .clad1
+    {
+        width: 70%;
+        border: solid;
+        border-radius: 2vh;
+        margin-left: 16%;
+        align-items: center;
+        border-color: gray;
+        border-width: 5px;
+    
+    }
+    
+    .his {
+        text-align: center;
+        width: 95%;
+        margin:2% 0% 5% 3%;
+    }
+    .lef_img {
+        float: left;
+    }
+    .rei_img {
+        float: right;
+        padding-left: 2%;
+    }
+    .hist {
+        width: 50% ;
+        height: auto ;
+        padding-top: 4%;
+        padding-right: 2%;
+    }
+    h1 {
+    color: #F0AE00;
+    }
+    
+    body div ul li{
+        text-align: left;
+        list-style-position:initial;
+        margin-left: 12%;
+        color: white;
+    }
+    
+    hr{
+        border: solid;
+        border-color: gray;
+    }
+    
+    
+    footer h1 .M {
+        color: #F0AE00;
+        font-family: 'Playfair Display', serif;
+        font-size: 5.5vh;
+        border-style: solid none dashed solid;
+    }
+    footer h1 .irleft {
+        color: #fff;
+        font-family: 'Playfair Display', serif;
+        font-size: 5.5vh;
+        border-style: dashed solid solid none;
+    }
+    footer img{
+        padding-left: 2vh;
+    }
+    footer ul{
+        padding-top: 1vh;
+     margin-right: 9vh;
+    } 
+    footer li{
+    list-style-type: none;
+    float: right;
+    padding-left: 3vh;
+    }
+    footer p{
+        position: relative;
+        text-align: center;
+        color: #fff;
+        padding-bottom: 4vh;
+    } 
+     footer{
+        background-color: black;
+    } 
